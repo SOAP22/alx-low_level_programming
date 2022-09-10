@@ -10,7 +10,7 @@
 int main(void)
 {
 	int i;
-	char digit = {'a', 'b', 'c', 'd', 'e', 'f'};
+	char digit[] = {'a', 'b', 'c', 'd', 'e', 'f'};
         for(i = 0; i < 10; i++)
         {
                 putchar('0' + i);
