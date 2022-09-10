@@ -3,7 +3,9 @@
 /**
  * main - Entry point
  *
- * this program prints the lowercase alphabet in reverse, followed by a new line.
+ * this program prints the lowercase alphabet
+ *
+ * in reverse, followed by a new line.
  *
  * Return: Always 0 (Succeed)
  */
