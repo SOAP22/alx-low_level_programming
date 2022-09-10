@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * this program output the aphabet letter in lower case 
+ * this program output the aphabet letter in lower case
  *
  * without print 'e' and 'q'
  *
@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-	char alpha [] = "abcdfghijklmnoprstuvwxyz";
+	char alpha[] = "abcdfghijklmnoprstuvwxyz";
 	int i;
 
 	for (i = 0; i < 26; i++)
