@@ -3,7 +3,9 @@
 /**
  * main - Entry point
  *
- * this program output the aphabet letter in lower case follow by letter in upper case
+ * this program output the aphabet letter in
+ *
+ * lower case follow by letter in upper case
  *
  * Return: Always 0 (Succeed)
  */
