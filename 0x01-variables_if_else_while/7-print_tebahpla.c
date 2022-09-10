@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-	char alpha [] = "zyxwvutsrqponmlkjihgfedcba"
+	char alpha [] = "zyxwvutsrqponmlkjihgfedcba";
 	int i;
 
 	for (i = 0; i < 26; i++)
