@@ -9,6 +9,6 @@
  */
 int main(void)
 {
-	puts("0123456789\n");
+	puts("0123456789");
 	return (0);
 }
