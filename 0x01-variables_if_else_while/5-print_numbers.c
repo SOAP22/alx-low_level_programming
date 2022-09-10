@@ -5,10 +5,10 @@
  *
  * this program output all digit of base 10
  *
- * Return - Always 0 (Succeed)
+ * Return: Always 0 (Succeed)
  */
 int main(void)
 {
 	puts("0123456789\n");
-        return (0);
+	return (0);
 }

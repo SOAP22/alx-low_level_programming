@@ -7,10 +7,10 @@
 /**
  * main - Entry point
  *
- * the program assign a random value to <n> 
- * and then displays the last digit 
+ * the program assign a random value to <n>
+ * and then displays the last digit
  *
- * Return - Always 0 (Succeed)
+ * Return: Always 0 (Succeed)
  */
 int main(void)
 {
