@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main block
+ * main - Starting point
+ *
  * Description: Write a program that prints all possible
  * different combinations of two digits
- * Return: 0
+ *
+ *  Return: Always 0 (Succeed)
  */
 int main(void)
 {
