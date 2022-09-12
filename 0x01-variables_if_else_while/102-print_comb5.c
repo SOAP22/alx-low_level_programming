@@ -1,51 +1,44 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * main - Starting point
+ * main - Entry point
  *
- * Description: Write a program that prints all possible
- * different combinations of two digits
- *
- *  Return: Always 0 (Succeed)
- */
+ * This program print to the standard output combinaison of
+ * decimal digit and this combinaison have lenght 5
+*
+ * Return: Always 0 (Succeed)
+*/
 int main(void)
 {
-	int c;
-	int d;
-	int e;
-	int f = 0;
+	int i, j, k, m;
 
-	while (f < 10)
+	for (i = 0; i <= 9; i++)
 	{
-		e = 0;
-		while (e < 10)
+		for (j = 0; j <= 9; j++)
 		{
-			d = 0;
-			while (d < 10)
+			m = j + 1;
+			for (k = i; k <= 9; k++)
 			{
-				c = 0;
-				while (c < 10)
+				while (m <= 9)
 				{
-					if (!(f == c && e == d))
+					putchar('0' + i);
+					putchar('0' + j);
+					putchar(' ');
+					putchar('0' + k);
+					putchar('0' + m);
+					if ((i + j ) == 17 && (k + m) == 18)
 					{
-						putchar('0' + f);
-						putchar('0' + e);
-						putchar(' ');
-						putchar('0' + d);
-						putchar('0' + c);
-						if (!(f + e == 18 && c + d == 17 && d == 9))
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						break;
 					}
-					c++;
+					else
+					{
+						putchar(',');
+						putchar(' ');
+					}
+					m++;
 				}
-				d++;
+				m = 0;
 			}
-			e++;
 		}
-		f++;
 	}
 	putchar('\n');
 	return (0);
