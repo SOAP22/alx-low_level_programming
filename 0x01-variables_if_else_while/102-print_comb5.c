@@ -25,7 +25,7 @@ int main(void)
 					putchar(' ');
 					putchar('0' + k);
 					putchar('0' + m);
-					if ((i + j) == 17 && (k + m) == 18)
+					if ((i == 9 && j == 8) && (k == 9 && m == 9))
 					{
 						break;
 					}
