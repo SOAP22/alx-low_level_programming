@@ -4,7 +4,7 @@
  *
  * This program print to the standard output combinaison of
  * decimal digit and this combinaison have lenght 5
-*
+ *
  * Return: Always 0 (Succeed)
 */
 int main(void)
@@ -25,7 +25,7 @@ int main(void)
 					putchar(' ');
 					putchar('0' + k);
 					putchar('0' + m);
-					if ((i + j ) == 17 && (k + m) == 18)
+					if ((i + j) == 17 && (k + m) == 18)
 					{
 						break;
 					}
