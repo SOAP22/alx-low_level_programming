@@ -8,7 +8,9 @@
  */
 int _islower(char c)
 {
-        if (islower(c))
+	int ca = c;
+
+        if (ca >= 97 && ca <= 122)
         {
                 return (0);
         }
