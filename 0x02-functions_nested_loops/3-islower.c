@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -10,12 +9,12 @@ int _islower(char c)
 {
 	int ca = c;
 
-        if (ca >= 97 && ca <= 122)
-        {
-                return (1);
-        }
-        else
-        {
-                return (0);
-        }
+	if (ca >= 97 && ca <= 122)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
