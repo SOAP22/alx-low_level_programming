@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * time_table - Entry point
+ * times_table - Entry point
  *
  * Return: Nothing
  */
-void time_table(void)
+void times_table(void)
 {
 	int i, j, r, q;
 
