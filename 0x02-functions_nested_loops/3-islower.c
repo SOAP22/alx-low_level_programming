@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * islower - Entry point
+ * _islower - Entry point
  *
+ * c: Character to check
  * Return: 0 or 1  According to the statut
  */
 int _islower(char c)
