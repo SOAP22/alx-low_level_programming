@@ -12,35 +12,29 @@ void print_to_98(int a)
 
 	if (a >= 98)
 	{
-		for( i = a; i >= 98; i--)
+		for(i = a; i >= 98; i--)
 		{
 			if (i == 98)
 			{
-				printf("%i", i);
-				_putchar('\n');
+				printf("%i\n", i);
 			}
 			else
 			{
-				printf("%i", i);
-				_putchar(',');
-				_putchar(' ');
+				printf("%i, ", i);
 			}
 		}
 	}
 	else
 	{
-		for( i = 0; i <= 98; i++)
+		for(i = 0; i <= 98; i++)
 		{
 			if (i == 98)
 			{
-				printf("%i", i);
-				_putchar('\n');
+				printf("%i\n", i);
 			}
 			else
 			{
-				printf("%i", i);
-				_putchar(',');
-				_putchar(' ');
+				printf("%i, ", i);
 			}
  		}
 	}
