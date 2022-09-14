@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * -islower - Entry pount
+ * islower - Entry point
  *
  * Return: 0 or 1  According to the statut
  */
