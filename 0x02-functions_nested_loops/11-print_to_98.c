@@ -12,7 +12,7 @@ void print_to_98(int a)
 
 	if (a >= 98)
 	{
-		for(i = a; i >= 98; i--)
+		for (i = a; i >= 98; i--)
 		{
 			if (i == 98)
 			{
@@ -26,7 +26,7 @@ void print_to_98(int a)
 	}
 	else
 	{
-		for(i = a; i <= 98; i++)
+		for (i = a; i <= 98; i++)
 		{
 			if (i == 98)
 			{
@@ -36,6 +36,6 @@ void print_to_98(int a)
 			{
 				printf("%i, ", i);
 			}
- 		}
+		}
 	}
 }
