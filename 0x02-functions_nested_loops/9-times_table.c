@@ -17,12 +17,12 @@ void times_table(void)
 			r = (i * j) % 10;
 			if ((i * j) < 10)
 			{
-				_putchar(r);
+				_putchar('0' + r);
 			}
 			else
 			{
-				_putchar(q);
-				_putchar(r);
+				_putchar('0' + q);
+				_putchar('0' + r);
 			}
 
 			if (j == 9)

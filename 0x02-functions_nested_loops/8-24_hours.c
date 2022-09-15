@@ -17,18 +17,16 @@ void jack_bauer(void)
 			{
 				for (l = 0; l < 10; l++)
 				{
-					_putchar(i);
-					_putchar(j);
+					_putchar('0' + i);
+					_putchar('0' + j);
 					_putchar(':');
-					_putchar(k);
-					_putchar(l);
+					_putchar('0' + k);
+					_putchar('0' + l);
 					_putchar('\n');
-					if ((i == 2 && j == 3) && (k == 5 && l == 9))
-					{
-						break;
-					}
 				}
 			}
+			if ( i == 2 && j == 3)
+				break;
 		}
 	}
 }
