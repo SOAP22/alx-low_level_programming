@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * sign - Entry piint
+ * print_sign - Entry piint
  *
  * @n : value to check
  *
  * Return: 0 , 1 or -1 about the sign of the number
  */
-int sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
