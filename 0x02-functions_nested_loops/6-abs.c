@@ -3,6 +3,8 @@
 /**
  * _ads - Entry point
  *
+ * @n : value for printing abs
+ *
  * Return: absolute value of n
  */
 int _abs(int n);

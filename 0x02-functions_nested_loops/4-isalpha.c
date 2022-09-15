@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
+ * _isalpha - Entry point
  *
+ * @c : character to check
  *
- *
+ * Return: 0 or 1
  */
 int _isalpha(int c)
 {

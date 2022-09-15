@@ -3,6 +3,8 @@
 /**
  * sign - Entry piint
  *
+ * @n : value to check
+ *
  * Return: 0 , 1 or -1 about the sign of the number
  */
 int sign(int n)

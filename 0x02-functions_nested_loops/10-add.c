@@ -3,7 +3,7 @@
 /**
  * add - Entry point
  *
- * a & b: value to add
+ * @a & @b: values to add
  *
  * Return: (a + b) (Addition of 2 number)
  */

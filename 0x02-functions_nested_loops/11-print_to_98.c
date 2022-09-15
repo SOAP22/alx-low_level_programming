@@ -4,7 +4,7 @@
 /**
  * print_to_98 - Entry point
  *
- * a: value that  begin the print
+ * @a: value that  begin the print
  *
  * Return: Void
  */
