@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _ads - Entry point
+ * _abs - Entry point
  *
  * @n : value for printing abs
  *
@@ -14,5 +14,5 @@ int _abs(int n)
 	else if (n == 0)
 		return (0);
 	else
-		return((-1)*n);
+		return ((-1) * n);
 }
