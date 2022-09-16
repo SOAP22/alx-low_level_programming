@@ -9,8 +9,8 @@ int _abs(int);
 int main(void)
 {
 	int r = 0;
-	
-	r = print_last_digit(98);
+
+	r = print_last_digit(-1024);
 	printf("%d\n", r);
 	printf("\n");
 	printf("\n");

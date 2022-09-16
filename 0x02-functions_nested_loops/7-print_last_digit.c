@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * print_last_digit - Entry point
+ * print_last_digit - Entry point function
  *
  * @a : number for printing last digit
  *
@@ -15,7 +15,7 @@ int print_last_digit(int a)
 	if (r < 0)
 	{
 		_putchar('0' + (-r));
-		return ('0' + (-r));
+		return ((-r));
 	}
 	else
 	{
