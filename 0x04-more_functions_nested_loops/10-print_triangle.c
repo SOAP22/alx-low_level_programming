@@ -8,6 +8,7 @@
  * Return: No return
  */
 void print_triangle(int n)
+{
 	int i, j, k;
 
 	for (i = 0; i < n; i++)
