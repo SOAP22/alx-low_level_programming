@@ -7,9 +7,12 @@
  */
 void rev_string(char *s)
 {
-	int l = _strlen(s);
+	int l = 0;
 	int i, j = 0;
 	char temp;
+
+	while (*(s + l) != '\0')
+		l++;
 
 	for (i = l - 1; i <= 0; i--)
 	{
