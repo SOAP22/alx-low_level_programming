@@ -3,7 +3,7 @@
 /**
  * _puts - Print a string
  *
- * @(*str): Copy of the conta8ner of the string
+ * @str: Copy of the conta8ner of the string
  */
 void _puts(char *str)
 {

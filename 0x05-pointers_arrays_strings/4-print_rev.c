@@ -3,7 +3,7 @@
 /**
  * print_rev - Print reverse of string
  *
- * @(*s): String to reverse
+ * @*s: String to reverse
  *
  */
 void print_rev(char *s)
