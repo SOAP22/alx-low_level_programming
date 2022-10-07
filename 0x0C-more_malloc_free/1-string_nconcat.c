@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+* string_nconcat - concatenate string
+*@s1: first string
+*@s2: second string
+*@n: number of caracter to copy
+* Return: pointer to the address of the memory block
+*/
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
