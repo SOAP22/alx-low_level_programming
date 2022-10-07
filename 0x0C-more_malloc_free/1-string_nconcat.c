@@ -1,52 +1,82 @@
 #include "main.h"
-#include <stdio.h>
-/**
- * _strlen - find length of a string
- * @s: string
- * Return: int
- */
+#include <stdlib.h>
 
-unsigned int _strlen(char *s)
-{
-unsigned int size = 0;
-for (; s[size] != '\0'; size++)
-;
-return (size);
-}
-
-/**
- * *string_nconcat - concatenates two strings
- * @s1: string 1
- * @s2: string 2
- * @n: first bytes of s2 to be used
- * Return: pointer or NULL
- */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-unsigned int i, j;
-char *m;
+	char *snc;
+	unsigned int len1 = 0, len2 = 0;
+	unsigned int i = 0, j = 0, k;
 
-if (s1 == NULL)
-	s1 = "";
-if (s2 == NULL)
-	s2 = "";
+	if (s1 != NULL)
+	{
+		while (s1[i] != '\0')
+		{
+			i++;
+			len1++;
+		}
+	}
 
-if (n < _strlen(s2))
-	m = malloc(_strlen(s1) + n * sizeof(char) + 1);
-else
-	m = malloc(_strlen(s1) + _strlen(s2) + 1);
+	if (s2 != NULL)
+	{
+		while (s2[j] != '\0')
+		{
+			j++;
+			len2++;
+		}
+	}
+	i = 0;
+	j = 0;
+	k = 0;
 
-if (m == 0)
-	return (NULL);
-
-for (i = 0; s1[i] != '\0'; i++)
-	m[i] = s1[i];
-
-for (j = 0; s2[j] != '\0' && j < n; i++, j++)
-	m[i] = s2[j];
-
-m[i] = '\0';
-
-return (m);
+	if (n < len2)
+	{
+		snc = malloc(len1 + n + 1);
+		while (i < (len1 + n ))
+		{
+			if (i < len1)
+			{
+				snc[i] = s1[j];
+				j++;
+			}
+			else
+			{
+				snc[i] = s2[k];
+				k++;
+			}
+			i++;
+		}
+	}
+	if (n >= len2)
+	{
+		snc = malloc(len1 + len2 + 1);
+		while (i < (len1 + len2))
+		{
+			if (i < len1)
+			{
+				snc[i] = s1[j];
+				j++;
+			}
+			else
+			{
+				snc[i] = s2[k];
+				k++;
+			}
+			i++;
+                }
+	}
+	if (s2 == NULL)
+	{
+		snc = malloc(len1 + 1);
+		while (i < len1)
+		{
+			if (i < len1)
+			{
+				snc[i] = s1[j];
+				j++;
+			}
+			i++;
+		}
+	}
+	return (snc);
 }
